@@ -8,6 +8,12 @@ body {
   font-family: "Gilda Display", serif;
 }
 
+body, span,
+h1, h2, h3, h4, h5, h6,
+.navbar, .card, .card-text, .btn, .cta, .sobre, .hero, .hero * {
+  font-family: "Gilda Display", serif !important;
+}
+
 .navbar {
   background-color: #191919;
   padding: 0.5rem 1rem;
@@ -221,6 +227,21 @@ footer p {
   }
   .card-article .card-img-top {
     height: 150px;
+  }
+  span {
+    display: block;
+    text-align: center;
+  }
+  img.logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .col-lg-7.col-12.order-2.order-lg-1, .text-footer {
+    text-align: center;
+  }
+  .icons-footer {
+    display: flex;
+    justify-content: center;
   }
 }
 
