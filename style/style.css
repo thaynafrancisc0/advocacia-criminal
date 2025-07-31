@@ -243,6 +243,9 @@ footer p {
     display: flex;
     justify-content: center;
   }
+  .mobile-none {
+    display: none;
+}
 }
 
 /* Tablets e acima */
