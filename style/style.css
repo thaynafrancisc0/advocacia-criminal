@@ -207,7 +207,10 @@ footer p {
 .mobile {
   display: none;
 }
-
+.img-thayna {
+    width: 20%;
+    margin: 2rem 0;
+}
 /* --------- RESPONSIVIDADE --------- */
 
 /* Mobile - até 767px */
