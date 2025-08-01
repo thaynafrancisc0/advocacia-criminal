@@ -260,7 +260,7 @@ footer p {
   .desktop {
     display: none;
   }
-.col-lg-12.col-12.order-2.order-lg-1 {
+  section.hero .container {
     text-align: center;
   }
 }
