@@ -208,8 +208,12 @@ footer p {
   display: none;
 }
 .img-thayna {
-    width: 20%;
+    width: 24%;
     margin: 2rem 0;
+}
+p.text-footer {
+    font-weight: bold;
+    margin: 8px 0;
 }
 /* --------- RESPONSIVIDADE --------- */
 
