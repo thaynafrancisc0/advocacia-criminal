@@ -88,6 +88,10 @@ a {
   width: 40%;
 }
 
+.text-gold {
+    font-weight: bolder;
+}
+
 /* Imagem Lady Justice */
 .hero-image-wrapper {
   position: relative;
