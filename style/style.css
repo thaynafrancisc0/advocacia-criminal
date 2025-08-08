@@ -94,7 +94,7 @@ a {
 
 .col-3.d-flex.justify-content-center img {
     background: #212121;
-    -radius: 100%;
+    border-radius: 100%;
     height: 56px;
     width: 56px;
     padding: 8px;
