@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
 body {
   background-color: #191919!important;
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: "Gilda Display", serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body, span,
 h1, h2, h3, h4, h5, h6,
 .navbar, .card, .card-text, .btn, .cta, .sobre, .hero, .hero * {
-  font-family: "Gilda Display", serif !important;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
 }
 
 .navbar {
