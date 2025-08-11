@@ -275,6 +275,9 @@ p.text-footer {
   section.hero .container {
     text-align: center;
   }
+  footer p.text-white.ms-3 {
+    text-align: center;
+  }
 }
 
 /* Tablets e acima */
