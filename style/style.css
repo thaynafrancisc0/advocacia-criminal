@@ -278,6 +278,9 @@ p.text-footer {
   footer p.text-white.ms-3 {
     text-align: center;
   }
+  .img-thayna {
+    width: 40%;
+  }
 }
 
 /* Tablets e acima */
