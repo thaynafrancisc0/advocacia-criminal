@@ -26,9 +26,16 @@ h1, h2, h3, h4, h5, h6,
 img.icon-header {
   height: 88px;
 }
+
 .text-header {
   color: #adadad;
 }
+
+section.logo {
+    display: flex;
+    align-items: center;
+}
+
 /* HERO */
 .hero {
   color: #fff;
