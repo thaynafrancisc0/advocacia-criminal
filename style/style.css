@@ -276,7 +276,11 @@ p.text-footer {
     text-align: center;
   }
   .img-thayna {
-    width: 40%;
+    width: 48%;
+    margin: 2rem auto;
+  }
+  hr.border {
+    margin: 1rem auto;
   }
 }
 
