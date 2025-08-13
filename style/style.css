@@ -216,10 +216,9 @@ footer p {
 .mobile {
   display: none;
 }
-/* .img-thayna {
-    width: 24%;
-    margin: 2rem 0;
-} */
+.img-thayna {
+    width: 90%;
+}
 p.text-footer {
     font-weight: bold;
     margin: 8px 0;
