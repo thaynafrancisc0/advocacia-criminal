@@ -179,6 +179,7 @@ p.card-text.text-gold {
 .card-text,
 .btn-link {
   color: #9B7B4A !important;
+  font-weight: bold;
 }
 
 /* Article Cards */
