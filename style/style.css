@@ -245,6 +245,16 @@ p.text-footer {
     font-weight: bold;
     margin: 8px 0;
 }
+
+.nav {
+    padding: 8px 3rem;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding: 16px 4rem;
+}
+
+
 /* --------- RESPONSIVIDADE --------- */
 
 /* Mobile - até 767px */
