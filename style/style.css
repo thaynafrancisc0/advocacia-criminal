@@ -163,25 +163,26 @@ a.btn.btn-link {
 /* ------------------ FOOTER ------------------ */
 footer {
   background-color: #212121;
-  padding: 2rem 1rem;
-  text-align: left;
-}
-
-footer p {
-  font-size: 0.9rem;
 }
 
 .text-footer {
-  font-weight: bold;
-  margin: 8px 0;
+  font-size: 0.9rem;
+  color: #ccc;
 }
 
-/* .icons-footer {
-  display: flex;
-  justify-content: center;
-} */
+.icon-header.logo {
+  height: 56px;
+  width: auto;
+}
 
+footer h5 {
+  font-weight: bold;
+  color: #fff;
+}
 
+footer small {
+  color: #adadad;
+}
 
 /* ------------------ UTILITÁRIOS ------------------ */
 .text-gold {
