@@ -310,6 +310,10 @@ p.text-footer {
   section.py-5 {
     padding: 1rem !important;
 }
+  .container.nav {
+    margin: 0 auto;
+    justify-content: center;
+}
 }
 
 /* Tablets e acima */
