@@ -208,11 +208,16 @@ a.btn.btn-link {
   object-fit: cover;
 }
 
-.card-article .card-body {
+.card-article {
   padding: 1.25rem;
   flex: 1 1 auto;
 }
 
+.card-body {
+    flex: 1 1 auto;
+    padding: 2rem 3rem;
+    text-align: left;
+}
 /* Footer */
 footer {
   background-color: #212121;
