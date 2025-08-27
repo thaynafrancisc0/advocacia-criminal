@@ -307,6 +307,9 @@ p.text-footer {
   footer {
     text-align: center;
 }
+  section.py-5 {
+    padding: 1rem !important;
+}
 }
 
 /* Tablets e acima */
