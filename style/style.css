@@ -1,6 +1,6 @@
-
+/* ------------------ BASE ------------------ */
 body {
-  background-color: #191919!important;
+  background-color: #191919 !important;
   margin: 0;
   padding: 0;
   color: #fff;
@@ -10,12 +10,22 @@ body {
 body, span,
 h1, h2, h3, h4, h5, h6,
 .navbar, .card, .card-text, .btn, .cta, .sobre, .hero, .hero * {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+/* ------------------ NAVBAR ------------------ */
 .navbar {
   background-color: #191919;
   padding: 0.5rem 1rem;
+}
+
+nav.navbar.navbar-expand-lg {
+  padding: 16px 4rem;
 }
 
 .navbar-brand,
@@ -23,24 +33,40 @@ h1, h2, h3, h4, h5, h6,
   color: #fff !important;
 }
 
-section.logo {
-    margin-top: 16px;
+.nav {
+  padding: 8px 3rem;
 }
 
-img.icon-header {
-  height: 88px;
+.nav-brand-wrapper {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text p {
+  color: #333;
+  line-height: 1.2;
+  margin: 0;
+}
+
+section.logo {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .text-header {
   color: #adadad;
 }
 
-section.logo {
-    display: flex;
-    align-items: center;
+img.logo,
+img.icon-header {
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
-/* HERO */
+/* ------------------ HERO ------------------ */
 .hero {
   color: #fff;
   padding: 6rem 1rem;
@@ -49,6 +75,7 @@ section.logo {
 .hero .container {
   max-width: 1140px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .hero h1 {
@@ -58,14 +85,19 @@ section.logo {
   word-break: keep-all;
 }
 
-.h1-color, .text-gold {
-  color: #9B7B4A;
-}
-
 .hero h4 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   word-break: keep-all;
+}
+
+.h1-color, .text-gold {
+  color: #9B7B4A;
+}
+
+hr.border {
+  width: 40%;
+  margin: 1rem auto;
 }
 
 a.cta {
@@ -82,7 +114,6 @@ a.cta {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
   margin-top: 1rem;
 }
 
@@ -91,32 +122,7 @@ a.cta:hover {
   color: #fff;
 }
 
-a {
-  text-decoration: none !important;
-  color: inherit;
-}
-
-.border {
-  width: 40%;
-}
-
-p.card-text.text-gold {
-    text-align: left;
-}
-
-.text-gold {
-    font-weight: bolder;
-}
-
-.col-3.d-flex.justify-content-center img {
-    background: #212121;
-    border-radius: 100%;
-    height: 56px;
-    width: 56px;
-    padding: 8px;
-}
-
-/* Imagem Lady Justice */
+/* ------------------ IMAGEM HERO ------------------ */
 .hero-image-wrapper {
   position: relative;
   width: 100%;
@@ -129,8 +135,11 @@ p.card-text.text-gold {
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
-  position: relative;
+  margin: 0 auto 2rem auto;
+  object-fit: contain;
+  transition: all 0.3s ease;
   z-index: 1;
+  position: relative;
 }
 
 .hero-image-overlay {
@@ -142,22 +151,105 @@ p.card-text.text-gold {
   border-radius: 0.5rem;
 }
 
-.justice-lady {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 2rem auto;
-  object-fit: contain;
-  transition: all 0.3s ease;
-}
-
-/* SOBRE Section */
+/* ------------------ SOBRE ------------------ */
 .sobre .horizontal-line {
   width: 60px;
   height: 3px;
   background-color: #9B7B4A;
   margin: 0 auto 1rem auto;
   border-radius: 2px;
+}
+
+/* ------------------ CARDS ------------------ */
+.card {
+  background-color: #191919 !important;
+  color: #9B7B4A;
+  text-align: center;
+  border: none !important;
+}
+
+.card-text,
+.btn-link {
+  color: #9B7B4A !important;
+  font-weight: bold;
+}
+
+.card-text.text-gold {
+  text-align: left;
+  font-weight: bolder;
+}
+
+.card-article {
+  background: #232323;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  height: 100%;
+}
+
+.card-article:hover {
+  transform: translateY(-4px) scale(1.01);
+}
+
+.card-article .card-img-top {
+  border-radius: 0;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-article > .card-body {
+  padding: 1rem !important;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 3rem !important;
+  text-align: left;
+}
+
+a.btn.btn-link {
+  padding: 0;
+}
+
+/* ------------------ FOOTER ------------------ */
+footer {
+  background-color: #212121;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer p.text-white.ms-3 {
+  text-align: center;
+}
+
+p.text-footer {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.container-lastest {
+  background: #212121;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+.icons-footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------ UTILITÁRIOS ------------------ */
+.text-gold {
+  font-weight: bolder;
 }
 
 .icon-rounded {
@@ -168,168 +260,111 @@ p.card-text.text-gold {
   display: inline-block;
 }
 
-/* Cards gerais e textos */
-.card {
-  background-color: #191919 !important;
-  color: #9B7B4A;
-  text-align: center;
-  border: none!important;
-}
-
-.card-text,
-.btn-link {
-  color: #9B7B4A !important;
-  font-weight: bold;
-}
-
-/* Article Cards */
-.card-article {
-  background: #232323;
-  border-radius: 0;
-  overflow: hidden;
-  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08);
-  transition: transform 0.2s;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-article:hover {
-  transform: translateY(-4px) scale(1.01);
-}
-
-a.btn.btn-link {
-    padding: 0;
-}
-
-.card-article .card-img-top {
-  border-radius: 0;
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.card-article {
-  padding: 1.25rem;
-  flex: 1 1 auto;
-}
-.card-article > .card-body {
-    padding: 1rem !important;
-}
-.card-body {
-    flex: 1 1 auto;
-    padding: 2rem 3rem!important;
-    text-align: left;
-}
-/* Footer */
-footer {
-  background-color: #212121;
-  padding: 2rem 1rem;
-}
-
-footer p {
-  font-size: 0.9rem;
-}
-
-.container-lastest {
+.col-3.d-flex.justify-content-center img {
   background: #212121;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
+  border-radius: 100%;
+  height: 56px;
+  width: 56px;
+  padding: 8px;
 }
+
+.img-thayna {
+  width: 90%;
+  margin-bottom: 8px;
+}
+
 .mobile {
   display: none;
 }
-.img-thayna {
-    width: 90%;
-}
-p.text-footer {
-    font-weight: bold;
-    margin: 8px 0;
+
+.desktop {
+  display: block;
 }
 
-.nav {
-    padding: 8px 3rem;
-}
+/* ------------------ RESPONSIVO ------------------ */
 
-nav.navbar.navbar-expand-lg {
-    padding: 16px 4rem;
-}
-
-
-/* --------- RESPONSIVIDADE --------- */
-
-/* Mobile - até 767px */
+/* Mobile até 767px */
 @media (max-width: 767.98px) {
+  .nav-brand-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .logo-text {
+    margin-left: 10px;
+  }
+
   .hero {
     padding: 1rem;
   }
+
   .hero h1 {
     font-size: 2rem;
     line-height: 2.5rem;
   }
+
   .hero h4 {
     font-size: 1.125rem;
   }
+
   button.cta {
     padding: 0.5rem 1.5rem;
     font-size: 0.9rem;
   }
+
   .justice-lady {
     max-width: 250px;
     margin-bottom: 1.5rem;
   }
+
   .card-article .card-img-top {
     height: 150px;
   }
+
   span {
     display: block;
     text-align: center;
   }
-  img.logo {
-    display: block;
-    margin: 0 auto;
-  }
-  .col-lg-7.col-12.order-2.order-lg-1, .text-footer {
+
+  .col-lg-7.col-12.order-2.order-lg-1,
+  .text-footer {
     text-align: center;
   }
-  .icons-footer {
-    display: flex;
-    justify-content: center;
-  }
+
   .mobile {
     display: block;
   }
+
   .desktop {
     display: none;
   }
+
   section.hero .container {
     text-align: center;
   }
-  footer p.text-white.ms-3 {
-    text-align: center;
-  }
-  .img-thayna {
-    width: 40%;
-    margin-bottom: 8px;
-  }
-  hr.border {
-    margin: 1rem auto;
-  }
-  footer {
-    text-align: center;
-}
+
   section.py-5 {
     padding: 1rem !important;
-}
+  }
+
   .container.nav {
     margin: 0 auto;
-    justify-content: center!important;
-}
+    justify-content: center !important;
+  }
 }
 
 /* Tablets e acima */
 @media (min-width: 768px) {
   .card-article .card-img-top {
     height: 200px;
+  }
+
+  .nav-brand-wrapper {
+    justify-content: flex-start;
+  }
+
+  .logo-text {
+    margin-left: 15px;
   }
 }
