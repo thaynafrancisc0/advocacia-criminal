@@ -153,11 +153,18 @@ a.cta:hover {
   text-align: left;
 }
 
+/* ARTIGOS */
+
+a.btn.btn-link {
+    color: #9B7B4A;
+    padding: 0;
+}
+
 /* ------------------ FOOTER ------------------ */
 footer {
   background-color: #212121;
   padding: 2rem 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 footer p {
@@ -169,10 +176,12 @@ footer p {
   margin: 8px 0;
 }
 
-.icons-footer {
+/* .icons-footer {
   display: flex;
   justify-content: center;
-}
+} */
+
+
 
 /* ------------------ UTILITÁRIOS ------------------ */
 .text-gold {
