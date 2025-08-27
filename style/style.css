@@ -212,9 +212,7 @@ a.btn.btn-link {
   padding: 1.25rem;
   flex: 1 1 auto;
 }
-.card-article .card-body
-Specificity: (0,2,0)
- {
+.card-article > .card-body {
     padding: 1rem !important;
 }
 .card-body {
