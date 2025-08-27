@@ -302,6 +302,9 @@ p.text-footer {
   hr.border {
     margin: 1rem auto;
   }
+  footer {
+    text-align: center;
+}
 }
 
 /* Tablets e acima */
