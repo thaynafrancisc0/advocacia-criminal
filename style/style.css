@@ -290,6 +290,10 @@ footer small {
     width: 40%;
   }
 
+  .sobremim {
+    text-align: center;
+  }
+
   .card-article .card-img-top {
     height: 150px;
   }
