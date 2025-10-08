@@ -195,6 +195,7 @@ a.btn.btn-link {
 /* ------------------ SOBRE MIM  ------------------ */
 .sobremim p {
   color: #fff;
+  text-align: justify;
 }
 
 /* Custom CSS for dark theme accordion */
