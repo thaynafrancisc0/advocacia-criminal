@@ -110,7 +110,19 @@ a.cta:hover {
   height: auto;
   display: block;
   margin: 0 auto;
+  mix-blend-mode: lighten;
+
+  /* Máscara com gradientes nas bordas */
+  -webkit-mask-image: 
+    linear-gradient(to top, transparent 0%, black 20%, black 80%, transparent 100%),
+    linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 100%);
+  -webkit-mask-composite: intersect;
+  mask-image: 
+    linear-gradient(to top, transparent 0%, black 20%, black 80%, transparent 100%),
+    linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 100%);
+  mask-composite: intersect;
 }
+
 
 /* ------------------ SOBRE ------------------ */
 .sobre .horizontal-line {
