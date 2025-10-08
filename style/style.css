@@ -195,7 +195,6 @@ a.btn.btn-link {
 /* ------------------ SOBRE MIM  ------------------ */
 .sobremim p {
   color: #fff;
-  text-align: justify;
 }
 
 /* Custom CSS for dark theme accordion */
@@ -285,6 +284,10 @@ footer small {
     width: 50%;
     max-width: 280px;
     margin-bottom: 1rem;
+  }
+
+  img.img-header {
+    width: 40%;
   }
 
   .card-article .card-img-top {
