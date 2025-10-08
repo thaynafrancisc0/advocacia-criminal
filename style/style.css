@@ -239,7 +239,7 @@ footer small {
   }
 
   .card-article .card-img-top .gmn {
-      height: auto;
+      height: auto!important;
     }
 
   .text-footer {
