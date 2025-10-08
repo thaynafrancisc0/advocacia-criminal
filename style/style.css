@@ -238,6 +238,10 @@ footer small {
     height: 150px;
   }
 
+  .card-article .card-img-top .gmn {
+      height: auto;
+    }
+
   .text-footer {
     text-align: center
   }
