@@ -175,12 +175,14 @@ a.btn.btn-link {
 /* ------------------ ACCORDION  ------------------ */
 
 /* Custom CSS for dark theme accordion */
-[data-bs-theme="dark"] .accordion {
-  --bs-accordion-btn-color: #f8f9fa; /* Light text for buttons */
-  --bs-accordion-btn-bg: #343a40; /* Dark background for buttons */
-  --bs-accordion-active-color: #ffffff; /* White text for active button */
-  --bs-accordion-active-bg: #495057; /* Slightly lighter dark for active button */
-  --bs-accordion-border-color: #495057; /* Darker border */
+
+$color-mode-type: data;
+
+@include color-mode(dark) {
+  .element {
+    color: var(--bs-primary-text-emphasis);
+    background-color: var(--bs-primary-bg-subtle);
+  }
 }
 
 /* ------------------ FOOTER ------------------ */
