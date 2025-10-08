@@ -118,7 +118,7 @@ a.cta:hover {
     linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 100%);
   -webkit-mask-composite: intersect;
   mask-image: 
-    linear-gradient(to top, transparent 0%, black 20%, black 80%, transparent 100%),
+    linear-gradient(to top, transparent 0%, black 20%, black 100%, transparent 100%),
     linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 100%);
   mask-composite: intersect;
 }
