@@ -238,7 +238,7 @@ footer small {
     height: 150px;
   }
 
-  .card-article .card-img-top .gmn {
+  img.card-img-top.gmn {
       height: auto!important;
     }
 
