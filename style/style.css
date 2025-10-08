@@ -112,27 +112,6 @@ a.cta:hover {
   margin: 0 auto;
 }
 
-.img-thayna {
-  display:block; 
-  width:100%; 
-  height:auto;
-  mix-blend-mode: normal; /* ou mantenha lighten se preferir */
-  -webkit-mask-image: none;
-  mask-image: none;
-  -webkit-mask-image:
-  radial-gradient(60% 60% at 0% 0%, #000 60%, transparent 100%),
-  radial-gradient(60% 60% at 100% 0%, #000 60%, transparent 100%),
-  radial-gradient(60% 60% at 100% 100%, #000 60%, transparent 100%),
-  radial-gradient(60% 60% at 0% 100%, #000 60%, transparent 100%);
-        mask-image:
-  radial-gradient(60% 60% at 0% 0%, #000 60%, transparent 100%),
-  radial-gradient(60% 60% at 100% 0%, #000 60%, transparent 100%),
-  radial-gradient(60% 60% at 100% 100%, #000 60%, transparent 100%),
-  radial-gradient(60% 60% at 0% 100%, #000 60%, transparent 100%);
--webkit-mask-composite: source-over, source-over, source-over, source-over;
-        mask-composite: add; /* suporte varia entre navegadores */
-}
-
 /* ------------------ SOBRE ------------------ */
 .sobre .horizontal-line {
   width: 60px;
