@@ -39,13 +39,13 @@ h1, h2, h3, h4, h5, h6,
   padding: 10px 0;
 }
 
-.logo-text {
+/* .logo-text {
   margin-left: 15px;
-}
+} */
 
 .logo-text p {
   color: #fff;
-  line-height: 1.2;
+  line-height: 1.8;
   margin: 0;
 }
 
