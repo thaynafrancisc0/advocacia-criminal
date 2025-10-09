@@ -86,11 +86,7 @@ img.logo {
   margin-bottom: 1rem;
 }
 
-hr.border {
-    width: 30%;
-    margin: 16px 0;
-    border: 2px solid #634e08 !important;
-}
+
 
 a.cta {
   border: 1px solid #9B7B4A;
@@ -163,6 +159,13 @@ a.cta:hover {
   border-radius: 2px;
 }
 
+hr.border {
+    width: 30%;
+    margin: 1rem 0;
+    border: 1px solid #333 !important;
+    border-radius: 2px;
+}
+
 /* ------------------ CARDS ------------------ */
 .card {
   background-color: #191919 !important;
@@ -205,17 +208,6 @@ a.btn.btn-link {
 /* ------------------ SOBRE MIM  ------------------ */
 .sobremim p {
   color: #fff;
-}
-
-/* Custom CSS for dark theme accordion */
-
-$color-mode-type: data;
-
-@include color-mode(dark) {
-  .element {
-    color: var(--bs-primary-text-emphasis);
-    background-color: var(--bs-primary-bg-subtle);
-  }
 }
 
 /* ------------------ FOOTER ------------------ */
