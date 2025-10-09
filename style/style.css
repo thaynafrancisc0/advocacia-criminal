@@ -1,3 +1,12 @@
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 /* ------------------ BASE ------------------ */
 body {
   background-color: #191919 !important;
@@ -19,7 +28,7 @@ a {
 /* ------------------ TIPOGRAFIA ------------------ */
 h1, h2, h3, h4, h5, h6,
 .navbar, .card, .card-text, .btn, .cta, .sobre, .hero, .hero * {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-family: "Nunito", sans-serif;
 }
 
 /* ------------------ NAVBAR ------------------ */
