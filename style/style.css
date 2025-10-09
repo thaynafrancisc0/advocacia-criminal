@@ -305,5 +305,8 @@ footer small {
   .text-footer {
     text-align: center
   }
+  a.btn.btn-link {
+    text-align: center !important;
+  }
 
 }
