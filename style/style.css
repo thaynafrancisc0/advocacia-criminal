@@ -76,7 +76,7 @@ img.logo {
 
 .hero h1 {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 800;
   margin-bottom: 0.5rem;
   color: #9B7B4A;
 }
@@ -87,8 +87,9 @@ img.logo {
 }
 
 hr.border {
-  width: 40%;
-  margin: 1rem 0;
+    width: 30%;
+    margin: 16px 0;
+    border: 2px solid #634e08 !important;
 }
 
 a.cta {
