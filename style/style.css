@@ -162,7 +162,6 @@ a.cta:hover {
 hr.border {
     width: 30%;
     margin: 1rem 0;
-    border: 1px solid #333 !important;
     border-radius: 2px;
 }
 
