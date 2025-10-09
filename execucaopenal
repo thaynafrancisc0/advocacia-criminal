@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Advogada Criminalista em São Paulo | Defesa Penal Estratégica</title>
+
+  <link rel="icon" type="image/png" href="./media/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
+
+  <!-- Estilo personalizado -->
+  <link rel="stylesheet" href="style/style.css" />
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"/>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+  
+<div class="container">
+  <nav>
+    <div class="d-flex align-items-center flex-column flex-sm-row w-100 justify-content-center justify-content-sm-start nav-brand-wrapper">
+      <a class="navbar-brand me-2" href="http://wa.me/+5511920016400">
+        <img src="media/logo.svg" width="100" class="logo" />
+      </a>
+      <div class="logo-text text-center text-sm-start">
+        <p class="mb-0 fw-bold">Thayna Francisco</p>
+        <p class="mb-0 small">Advogada Criminalista</p>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<section class="hero" id="whatsapp">
+  <div class="container">
+    <div class="row">
+      <!-- Coluna de texto reduzida para col-lg-6 -->
+      <div class="col-lg-7 col-12 order-2 order-lg-1">
+        <div class="google-rating">
+          <a target="_blank" rel="noopener noreferrer" href="https://share.google/LZKXKaPabLymJlnFZ" class="btn btn-link">
+            <img src="./media/gmn-stars.png" alt="avaliacaogoogle" style="width:128px; margin: 1rem 0;">
+          </a>
+        </div>
+        <h1 class="h1-color">
+          Seu familiar está preso? Saiba como garantir seus direitos e acelerar a liberdade
+        </h1>
+        <hr class="border" />
+        <p> 
+          A execução penal não é o fim. É o momento de agir com estratégia para conquistar remição, progressão e dignidade.
+        </p>
+        <p>
+          Se você está buscando ajuda para alguém que ama, eu posso te orientar com clareza e urgência.
+        </p>
+        <!-- <p><b>Eu não julgo o seu passado, eu defendo o seu futuro.</b></p> -->
+        <a href="http://wa.me/+5511920016400" class="cta mt-3 mb-2 d-inline-block text-white text-uppercase">
+          <!-- <i class="fab fa-whatsapp fa-3x white-icon"></i> -->
+          Fale agora pelo WhatsApp
+        </a>
+
+      </div>
+
+      <!-- Espaço vazio com offset -->
+      <div class="offset-lg-1 col-lg-4 img-header order-1 order-lg-2">
+        <img src="./media/justice-lady.svg" alt="Thayna Francisco" class="img-header">
+      </div>
+
+    
+
+    </div>
+  </div>
+</section>
+
+                    
+<section class="">
+    <div class="container p-3">
+      <div class="row justify-content-center text-center mb-4">
+        <div class="col-lg-8 col-md-10">
+          <h6 class="text-uppercase text-muted mb-2">        
+            Entenda o que está acontecendo e como agir com inteligência.
+          </h6>
+          <h2 class="display-5 fw-bold mb-3 text-white">
+            Você não precisa enfrentar isso sozinha.
+          </h2>
+          <div class="horizontal-line mx-auto mb-3"></div>
+          <p class="mx-auto text-white" style="max-width: 88%">
+            Você não precisa enfrentar isso sozinha
+          </p>
+          <p class="mx-auto text-white" style="max-width: 88%">
+            Prisão, condenação, falta de informação sobre direitos, visitas negadas, dúvidas sobre saidinha... tudo isso gera angústia. 
+            Mas há caminhos jurídicos que podem mudar essa realidade. 
+            Veja se alguma dessas situações é parecida com a sua:
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<div class="container">
+  <div class="row">
+    
+    <!-- Card 1 -->
+    <div class="col-lg-3 col-md-6 mb-4 d-flex">
+      <div class="card w-100 text-white" style="
+        background: linear-gradient(145deg, #2c2c2c, #1e1e1e);
+        border: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        padding: 1.5rem;
+        border-radius: 12px;
+        text-align: center;">
+        <div class="card-body">
+          <img src="media/card1.png" alt="Ícone sigd-title" style="margin-bottom: 8px;">
+          <p style="font-weight:bold; margin-bottom: 0px;">Meu familiar foi condenado e está preso</p>
+          <p class="card-text" style="color: #ddd;">
+            Saiba como funciona a execução penal, os direitos que ele ainda tem, como remição, progressão e visitas e o que pode ser feito.
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-lg-3 col-md-6 mb-4 d-flex">
+      <div class="card w-100 text-white" style="
+        background: linear-gradient(145deg, #2c2c2c, #1e1e1e);
+        border: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        padding: 1.5rem;
+        border-radius: 12px;
+        text-align: center;">
+        <div class="card-body">
+          <img src="media/card2.png" alt="Ícone técnica" style="margin-bottom: 8px;">
+            <p style="font-weight:bold; margin-bottom: 0px;">Quero saber se ele tem direito à remição</p>
+          <p class="card-text" style="color: #ddd;">
+            Trabalho, estudo e leitura podem reduzir o tempo de prisão. E isso pode impactar até o direito à "saidinha".
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-lg-3 col-md-6 mb-4 d-flex">
+      <div class="card w-100 text-white" style="
+        background: linear-gradient(145deg, #2c2c2c, #1e1e1e);
+        border: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        padding: 1.5rem;
+        border-radius: 12px;
+        text-align: center;">
+        <div class="card-body">
+          <img src="media/card3.png" alt="Ícone comunicação"style="margin-bottom: 8px;">
+            <p style="font-weight:bold; margin-bottom: 0px;">Não sei quando ele pode progredir de regime</p>
+            <p class="card-text" style="color: #ddd;">
+              A progressão tem data, mas ela depende de vários fatores. 
+              Posso analisar o caso e te mostrar com clareza quando isso pode acontecer e o que pode acelerar esse processo.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-lg-3 col-md-6 mb-4 d-flex">
+      <div class="card w-100 text-white" style="
+        background: linear-gradient(145deg, #2c2c2c, #1e1e1e);
+        border: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        padding: 1.5rem;
+        border-radius: 12px;
+        text-align: center;">
+        <div class="card-body">
+          <img src="media/card4.png" alt="Ícone comunicação"style="margin-bottom: 8px;">
+            <p style="font-weight:bold; margin-bottom: 0px;">Ele está preso há meses e ninguém explica nada</p>
+            <p class="card-text" style="color: #ddd;">
+              Você tem direito à informação. Posso te ajudar a entender sobre visitas, benefícios e como agir juridicamente.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botão CTA -->
+    <!-- <div class="col-lg-12 d-flex justify-content-center">
+      <a href="http://wa.me/+5511920016400" class="cta mt-3 mb-2 d-inline-block text-white text-uppercase">Fale Comigo Agora</a>
+    </div> -->
+        
+    </div>
+  </div>
+
+
+    <section class="sobremim py-5" id="mensagem">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <img src="./media/thayna-header.png" alt="Thayna Francisco" class="img-thayna">
+          </div>
+          <div class="col-lg-7 py-3">
+            
+            <h6 class="text-uppercase text-muted mb-2">
+              Técnica, urgência e humanidade
+            </h6>
+            
+             <h2 class="display-5 fw-bold mb-3 text-white">
+              Eu assumo a responsabilidade de lutar por quem você ama.
+            </h2>
+            
+            <!-- <div class="horizontal-line mx-auto mb-3"></div> -->
+
+            <p>
+              Sou Advogada Criminalista e atuo com foco em execução penal.
+            </p>
+            <p>
+              Atendo mulheres que buscam justiça para seus maridos e filhos presos, com estratégia jurídica e acolhimento.
+            </p>
+            <p>
+              Cada atendimento é feito com seriedade, porque sei que, para você, não é só um processo, é a vida de alguém que você ama.
+            </p>
+
+            <a target="_blank" rel="noopener noreferrer" href="https://share.google/LZKXKaPabLymJlnFZ" class="btn btn-link text-start">
+              ⭐ Avaliações 5 estrelas no Google confirmam: atendimento acolhedor, comunicação clara e defesa combativa.
+            </a>
+            
+            <!-- Botão CTA -->
+            <div class="col-lg-12 d-flex justify-content-center">
+              <a href="http://wa.me/+5511920016400" class="cta mt-3 mb-2 d-inline-block text-white text-uppercase">Fale Comigo Agora</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <section class="py-5">
+    <div class="container sobre">
+      <div class="row justify-content-center text-center mb-4">
+        <div class="col-lg-8 col-md-10">
+          <h6 class="text-uppercase text-muted mb-2">O que posso fazer por você e por quem está preso</h6>
+          <h2 class="display-5 fw-bold mb-3 text-white">
+            Atuação técnica em Execução Penal, com foco em estratégia e direitos garantidos por lei.
+          </h2>
+          
+          <div class="horizontal-line mx-auto mb-3"></div>
+          
+          <p class="mx-auto text-white">
+            Cada situação na execução penal exige uma análise cuidadosa e ações jurídicas específicas. 
+            Meu papel é te orientar com clareza e atuar com seriedade para garantir que os direitos da pessoa presa sejam respeitados com técnica, urgência e responsabilidade.
+          </p>
+          
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="text-center p-4 h-100">
+            <img
+              class="icon-rounded mb-4"
+              src="./media/servicos1.svg"
+              alt="Ícone Prisão em Flagrante"
+              width="56"
+              height="56"
+            />
+            <h6 class="text-uppercase text-gold">Remição de pena</h6>
+            <p class="mb-0 text-white">
+              Análise de trabalho, estudo e leitura para reduzir o tempo de prisão.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="text-center p-4 h-100">
+            <img
+              class="icon-rounded mb-4"
+              src="./media/servicos2.svg"
+              alt="Ícone Direito Penal Médico"
+              width="56"
+              height="56"
+            />
+            <h6 class="text-uppercase text-gold">Progressão de regime</h6>
+            <p class="mb-0 text-white">
+              Pedido de mudança para regime mais brando, com base na lei.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="text-center p-4 h-100">
+            <img
+              class="icon-rounded mb-4"
+              src="./media/servicos6.svg"
+              alt="Ícone Violência Doméstica"
+              width="56"
+              height="56"
+            />
+            <h6 class="text-uppercase text-gold">Pedido de indulto ou livramento condicional</h6>
+            <p class="mb-0 text-white">
+              Avaliação de requisitos e elaboração de pedido.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="text-center p-4 h-100">
+            <img
+              class="icon-rounded mb-4"
+              src="./media/servicos4.svg"
+              alt="Ícone Tráfico de Drogas"
+              width="56"
+              height="56"
+            />
+            <h6 class="text-uppercase text-gold">Consulta sobre direitos na prisão</h6>
+            <p class="mb-0 text-white">
+              Explicação clara sobre o que pode ou não ser feito.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="text-center p-4 h-100">
+            <img
+              class="icon-rounded mb-4"
+              src="./media/servicos5.svg"
+              alt="Ícone Execução Penal"
+              width="56"
+              height="56"
+            />
+            <h6 class="text-uppercase text-gold">Orientação sobre direito à visita</h6>
+            <p class="mb-0 text-white">
+              Explicação clara sobre regras, documentos exigidos e como agir em caso de negativa ou abuso.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="text-center p-4 h-100">
+            <img
+              class="icon-rounded mb-4"
+              src="./media/servicos3.svg"
+              alt="Ícone Crimes digitais e cibernéticos"
+              width="56"
+              height="56"
+            />
+            <h6 class="text-uppercase text-gold">Pedido de saída temporária (saidinha)</h6>
+            <p class="mb-0 text-white">
+              Avaliação dos requisitos e elaboração do pedido para garantir o direito à visita em datas especiais.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="col-lg-12 d-flex justify-content-center" id="ligar">
+      <a href="tel:+5511920016400" class="cta mt-3 mb-2 d-inline-block text-white text-uppercase">Prefere ligar? Clique aqui</a>
+  </div>
+
+  
+  <section class="py-5">
+    <div class="container sobre">
+      <div class="row justify-content-center text-center mb-4">
+        <div class="col-lg-8 col-md-10">
+          <h6 class="text-uppercase text-muted mb-2">INFORME-SE</h6>
+          <h2 class="display-5 fw-bold mb-3 text-white">Informação que faz diferença</h2>
+          <div class="horizontal-line mx-auto mb-3"></div>
+          <p class="mx-auto text-white" style="max-width: 480px">
+             Entenda seus direitos e saiba como agir em situações críticas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container pb-5">
+    <div class="row">
+
+      <div class="col-sm-4 mb-4">
+        <div class="card-article h-100">
+          <img
+            src="./media/gmn.png"
+            class="card-img-top gmn"
+            alt="Avaliação Google"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-white fw-bold">O que meus clientes dizem sobre mim.</h5>
+            <p class="card-text text-white">
+              Confiança se constrói com trabalho sério, ético e atuação técnica firme. Avaliação máxima no Google Meu Negócio, com dezenas de clientes que já confiaram na minha atuação. Conheça como uma defesa estratégica pode contribuir para a proteção dos seus direitos.            </p>
+            <a target="_blank" rel="noopener noreferrer" href="https://share.google/LZKXKaPabLymJlnFZ" class="btn btn-link"><b>Ver todas no Google</b></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-4 mb-4">
+        <div class="card-article h-100">
+          <img
+            src="./media/artigo1.png"
+            class="card-img-top"
+            alt="Artigo 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-white fw-bold">Familiar preso em flagrante? Evite os 3 erros fatais.</h5>
+            <p class="card-text text-white">
+              Receber a notícia da prisão de um familiar é desesperador. Cada minuto conta e decisões erradas podem custar a liberdade. Descubra os três erros mais comuns e como agir com estratégia para proteger quem você ama.            
+            </p>
+            <a href="http://wa.me/+5511920016400" class="btn btn-link"><b>Saiba Mais</b></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-4 mb-4">
+        <div class="card-article h-100">
+          <img
+            src="./media/artigo2.png"
+            class="card-img-top"
+            alt="Artigo 2"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-white fw-bold">Intimado a depor? Por que ir sozinho pode ser um erro grave.</h5>
+            <p class="card-text text-white">
+              Comparecer à delegacia sem orientação parece simples, mas pode comprometer sua defesa. Cada palavra pode ser usada contra você. Entenda por que o silêncio estratégico e o acompanhamento jurídico são essenciais.
+            </p>
+            <a href="http://wa.me/+5511920016400" class="btn btn-link"><b>Saiba Mais</b></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="text-white py-5">
+  <div class="container">
+    <div class="row text-lg-start">
+      <div class="col-lg-4 col-md-6">
+        <!-- Logo + Nome -->
+        <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-3">
+          <img src="./media/logo.svg" alt="Logo Thayna Francisco" class="icon-header logo me-2" />
+          <div>
+            <h5 class="mb-0">Thayna Francisco</h5>
+            <small class="text-muted">Advogada Criminalista em São Paulo</small>
+          </div>
+        </div>
+
+        <!-- Descrição -->
+        <p class="text-footer mt-3">
+          Aqui, sua confiança encontra ética, técnica e ação para enfrentar qualquer desafio.
+        </p>
+
+        <!-- Contato -->
+        <p class="mb-1 text-footer">
+          <strong>Telefone:</strong>
+          <a href="tel:+5511920016400" class="text-white"> (11) 92001-6400 </a>
+        </p>
+
+        <!-- Redes Sociais -->
+        <div class="d-flex justify-content-center justify-content-lg-start gap-3 mt-3">
+          <a href="https://www.instagram.com/thaynafco/" aria-label="Instagram" class="text-white-50 fs-4">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://api.whatsapp.com/send/?phone=%2B5511920016400" aria-label="WhatsApp" class="text-white-50 fs-4">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <div class="container-lastest text-white text-center text-muted small py-2">
+    &copy; 2025 Thayna Francisco OAB/SP 536.470
+  </div>
+
+  <!-- Bootstrap Bundle -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <!-- Bootstrap Icons (opcional para os ícones do rodapé) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</body>
+</html>
