@@ -5,6 +5,9 @@ ul.timeline {
 	 list-style-type: none;
 	 padding-left: 180px;
 }
+ul.timeline p {
+    color: #fff;
+}
  ul.timeline:before {
 	 position: absolute;
 	 display: block;
@@ -12,13 +15,13 @@ ul.timeline {
 	 width: 8px;
 	 height: 100%;
 	 border-radius: 4px;
-	 background-color: #07b;
+	 background-color: #977c4c;
 	 content: ' ';
 }
  ul.timeline .event {
 	 position: relative;
 	 padding: 16px;
-	 background: white;
+	 background: #242424;
 	 border-radius: 2px;
 	 box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
 	 padding: 16px;
@@ -31,7 +34,7 @@ ul.timeline {
 	 left: -55px;
 	 width: 30px;
 	 height: 30px;
-	 border: 6px solid #07b;
+	 border: 6px solid #977c4c;
 	 border-radius: 50%;
 	 background-color: white;
 	 box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.6);
@@ -41,6 +44,7 @@ ul.timeline {
 	 font-size: 1.5em;
 	 margin-top: 0;
 	 margin-bottom: 10px;
+	 color: #fff;
 }
  ul.timeline .time {
 	 position: absolute;
@@ -52,6 +56,7 @@ ul.timeline {
 	 text-align: right;
 	 font-weight: 600;
 	 text-transform: uppercase;
+	 color: #fff;
 }
  ul.timeline .time > .glyphicon-time {
 	 top: 2px;
