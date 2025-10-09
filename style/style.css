@@ -1,6 +1,7 @@
 a.link-card {
-    color: #a58c5c;
+    color: #eee;
     text-decoration: underline ! Important;
+    text-transform: capitalize;
 }
 
 
