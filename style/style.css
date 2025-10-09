@@ -1,6 +1,5 @@
 a.link-card {
     color: #eee;
-    text-decoration: underline ! Important;
     text-transform: capitalize;
 }
 
@@ -22,6 +21,7 @@ body {
   padding: 0;
   color: #fff;
   font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
 }
 
 * {
