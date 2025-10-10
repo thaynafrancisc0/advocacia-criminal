@@ -79,6 +79,7 @@ img.logo {
   font-weight: 800;
   margin-bottom: 0.5rem;
   color: #9B7B4A;
+  text-transform: uppercase;
 }
 
 .hero h4 {
