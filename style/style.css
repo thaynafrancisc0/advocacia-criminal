@@ -1,16 +1,8 @@
-a.link-card {
-    color: #eee;
-    text-transform: capitalize;
-    font-style: italic;
-}
-
-
 /* font */
 
-.nunito-<uniquifier> {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+gilda-display-regular {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -21,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Gilda Display", serif;
 }
 
 * {
@@ -36,7 +28,7 @@ a {
 /* ------------------ TIPOGRAFIA ------------------ */
 h1, h2, h3, h4, h5, h6,
 .navbar, .card, .card-text, .btn, .cta, .sobre, .hero, .hero * {
-  font-family: "Nunito", sans-serif;
+  font-family: "Gilda Display", serif;
 }
 
 /* ------------------ NAVBAR ------------------ */
@@ -204,6 +196,12 @@ hr.border {
   padding: 2rem 1rem !important;
   text-align: left;
 } */
+
+a.link-card {
+    color: #eee;
+    text-transform: capitalize;
+    font-style: italic;
+}
 
 /* ARTIGOS */
 
