@@ -52,7 +52,7 @@ a {
 
 /* ------------------ TIPOGRAFIA ------------------ */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Gilda Display", serif;
+  font-family: "Gilda Display", serif!important;
 }
 
 p, a, .navbar, .card-text, .btn, .cta, .sobre, .hero, .hero * {
