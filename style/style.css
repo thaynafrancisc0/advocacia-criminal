@@ -51,13 +51,32 @@ a {
 }
 
 /* ------------------ TIPOGRAFIA ------------------ */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-family: "Gilda Display", serif!important;
 }
 
 p, a, .navbar, .card-text, .btn, .cta, .sobre, .hero, .hero * {
     font-family: "Barlow", sans-serif;
 
+}
+
+h6 {
+    color: #e3af5a;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+p {
+    color: ##d7d7d8;
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 24px;
 }
 
 /* ------------------ NAVBAR ------------------ */
@@ -104,20 +123,26 @@ img.logo {
 }
 
 .hero h1 {
-  font-size: 3rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
-  color: #9B7B4A;
-  text-transform: uppercase;
-  font-family: "Gilda Display", serif!important;
+    letter-spacing: 0;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-family: Gilda Display, sans-serif!important;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #f5f5f5;
+    text-transform: uppercase;
 }
 
 .hero h4 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+    letter-spacing: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: Gilda Display, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5em;
 }
-
-
 
 a.cta {
   border: 1px solid #9B7B4A;
@@ -143,7 +168,7 @@ a.cta:hover {
 /* ------------------ IMAGEM HERO ------------------ */
 .img-header {
   width: 100%;
-  max-width: 360px;
+  max-width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -306,8 +331,7 @@ footer small {
   }
 
   .hero h1 {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 40px;
   }
 
   .hero h4 {
@@ -325,7 +349,7 @@ footer small {
   }
 
   img.img-header {
-    width: 40%;
+    width: 50%;
   }
 
   .sobremim {
