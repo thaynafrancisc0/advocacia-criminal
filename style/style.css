@@ -109,6 +109,7 @@ img.logo {
   margin-bottom: 0.5rem;
   color: #9B7B4A;
   text-transform: uppercase;
+  font-family: "Gilda Display", serif!important;
 }
 
 .hero h4 {
