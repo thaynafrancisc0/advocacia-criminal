@@ -1,10 +1,36 @@
-/* font */
+/* fonts */
 
 gilda-display-regular {
   font-family: "Gilda Display", serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 
 
 /* ------------------ BASE ------------------ */
@@ -13,7 +39,6 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: "Gilda Display", serif;
 }
 
 * {
@@ -26,9 +51,13 @@ a {
 }
 
 /* ------------------ TIPOGRAFIA ------------------ */
-h1, h2, h3, h4, h5, h6,
-.navbar, .card, .card-text, .btn, .cta, .sobre, .hero, .hero * {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Gilda Display", serif;
+}
+
+p, a, .navbar, .card-text, .btn, .cta, .sobre, .hero, .hero * {
+    font-family: "Barlow", sans-serif;
+
 }
 
 /* ------------------ NAVBAR ------------------ */
