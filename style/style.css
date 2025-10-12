@@ -137,7 +137,7 @@ img.logo {
     letter-spacing: 0;
     margin-top: 12px;
     margin-bottom: 0;
-    font-family: Gilda Display, sans-serif!important;
+    font-family: "Barlow", sans-serif;
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
@@ -149,7 +149,7 @@ img.logo {
     letter-spacing: 0;
     margin-top: 8px;
     margin-bottom: 8px;
-    font-family: Gilda Display, sans-serif;
+    font-family: "Barlow", sans-serif!important;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.5em;
@@ -157,7 +157,11 @@ img.logo {
 
 .hero h6 {
     letter-spacing: 2px;
-    font-family: Gilda Display, sans-serif!important;
+    font-family: "Barlow", sans-serif;
+}
+
+.hero p {
+    font-family: "Barlow", sans-serif;
 }
 
 a.cta {
