@@ -40,7 +40,7 @@ body {
   background-color: #111 !important;
   margin: 0;
   padding: 0;
-  color: #d7d7d8;
+  color: #fff;
 }
 
 * {
@@ -81,7 +81,7 @@ h6 {
 }
 
 p {
-    color: #d7d7d8;
+    color: #fff;
     margin-bottom: 0;
     font-size: 17px;
     line-height: 24px;
@@ -95,7 +95,7 @@ p {
 
 .navbar-brand,
 .nav-link {
-  color: #d7d7d8 !important;
+  color: #fff !important;
 }
 
 .nav-brand-wrapper {
@@ -109,7 +109,7 @@ p {
 } */
 
 .logo-text p {
-  color: #d7d7d8;
+  color: #fff;
   line-height: 1.8;
   margin: 0;
 }
@@ -121,7 +121,7 @@ img.logo {
 
 /* ------------------ HERO ------------------ */
 .hero {
-  color: #d7d7d8;
+  color: #fff;
   padding: 2rem 0rem;
 }
 
@@ -178,7 +178,7 @@ a.cta {
 
 a.cta:hover {
   background-color: #e3af5a;
-  color: #d7d7d8;
+  color: #fff;
 }
 
 /* ------------------ IMAGEM HERO ------------------ */
@@ -255,7 +255,7 @@ hr.border {
 }
 
 a.link-card {
-    color: #d7d7d8;
+    color: #fff;
     text-transform: capitalize;
     font-style: italic;
 }
@@ -276,7 +276,7 @@ a.btn.btn-link {
 
 /* ------------------ SOBRE MIM  ------------------ */
 .sobremim p {
-  color: #d7d7d8;
+  color: #fff;
 }
 
 /* ------------------ FOOTER ------------------ */
@@ -289,7 +289,7 @@ footer {
 }
 
 .text-footer {
-  color: #d7d7d8;
+  color: #fff;
 }
 
 .icon-header.logo {
@@ -299,7 +299,7 @@ footer {
 
 footer h5 {
   font-weight: bold;
-  color: #d7d7d8;
+  color: #fff;
 }
 
 footer small {
@@ -347,6 +347,7 @@ footer small {
 
   .hero h4 {
     font-size: 1.125rem;
+    color: #fff;
   }
 
   hr.border {
