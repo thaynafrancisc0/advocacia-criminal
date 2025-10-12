@@ -353,10 +353,14 @@ footer small {
     margin: 1rem auto;
   }
 
-  .img-thayna, .img-header {
+  .img-thayna {
     width: 50%;
     max-width: 280px;
     margin-bottom: 1rem;
+  }
+
+  .img-header {
+    display:none;
   }
 
   .last-div {
