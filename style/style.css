@@ -183,7 +183,7 @@ a.cta:hover {
 
 /* ------------------ IMAGEM HERO ------------------ */
 .img-header {
-  width: 50%;
+  width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -293,7 +293,7 @@ footer {
 }
 
 .icon-header.logo {
-  height: 56px;
+  height: 80px;
   width: auto;
 }
 
@@ -333,7 +333,7 @@ footer small {
   }
   
   img.logo {
-    height: 56px;
+    height: 80px;
     }
 
   .hero {
@@ -353,15 +353,15 @@ footer small {
     margin: 1rem auto;
   }
 
-  .img-thayna {
+  .img-thayna, .img-header {
     width: 50%;
     max-width: 280px;
     margin-bottom: 1rem;
   }
 
-  /* img.img-header {
-    width: 50%;
-  } */
+  .last-div {
+      text-align: center;
+  }
 
   .sobremim {
     text-align: center;
