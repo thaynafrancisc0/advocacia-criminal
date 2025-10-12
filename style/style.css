@@ -53,11 +53,11 @@ a {
 }
 
 /* ------------------ TIPOGRAFIA ------------------ */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, a {
   font-family: "Gilda Display", serif!important;
 }
 
-p, a, .navbar, .card-text, .btn, .cta, .sobre, .hero, .hero * {
+p, .navbar, .card-text, .btn, .cta {
     font-family: "Barlow", sans-serif;
 
 }
@@ -125,6 +125,10 @@ img.logo {
   padding: 2rem 0rem;
 }
 
+
+.hero p {
+  font-weight: 600;
+}
 .hero .container {
   margin: 0 auto;
 }
@@ -179,8 +183,7 @@ a.cta:hover {
 
 /* ------------------ IMAGEM HERO ------------------ */
 .img-header {
-  width: 100%;
-  max-width: 80%;
+  width: 50%;
   height: auto;
   display: block;
   margin: 0 auto;
