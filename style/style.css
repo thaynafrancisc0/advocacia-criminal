@@ -53,11 +53,11 @@ a {
 }
 
 /* ------------------ TIPOGRAFIA ------------------ */
-h1, h2, h3, h4, h5, a {
+h1, h2, h3, h4, h5 {
   font-family: "Gilda Display", serif!important;
 }
 
-p, .navbar, .card-text, .btn, .cta {
+p, .navbar, .card-text, .btn, .cta, a {
     font-family: "Barlow", sans-serif;
 
 }
@@ -269,6 +269,14 @@ a.link-card {
   border: 1px solid #333;
   padding: 2.5rem; 
   border-radius: 4px; 
+}
+
+.who-card {
+    padding: 1rem;
+}
+
+h6.text-uppercase.mb-2 {
+    font-weight: 100;
 }
 
 /* ARTIGOS */
