@@ -88,9 +88,10 @@ p {
 }
 
 /* ------------------ NAVBAR ------------------ */
-.navbar {
-  background-color: #191919;
-  padding: 16px 4rem;
+.container.nav {
+    background: #1e1e1e;
+    max-width: 100%;
+    padding: 16px 4rem;
 }
 
 .navbar-brand,
@@ -125,6 +126,9 @@ img.logo {
   padding: 2rem 0rem;
 }
 
+.hero.vitimas {
+  min-height: 76vh;
+}
 
 .hero p {
   font-weight: 600;
