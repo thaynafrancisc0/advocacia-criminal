@@ -37,7 +37,8 @@ gilda-display-regular {
 
 /* ------------------ BASE ------------------ */
 body {
-  background-color: #111 !important;
+  background-color: #111; /* Fallback */
+  background-image: linear-gradient(to bottom, #222, #0a0a0a);
   margin: 0;
   padding: 0;
   color: #fff;
@@ -89,7 +90,6 @@ p {
 
 /* ------------------ NAVBAR ------------------ */
 .container.nav {
-    background: #1e1e1e;
     max-width: 100%;
     padding: 16px 4rem;
 }
@@ -191,7 +191,7 @@ a.cta:hover {
 
 /* ------------------ IMAGEM HERO ------------------ */
 .img-header {
-  width: 80%;
+  width: 88%;
   height: auto;
   display: block;
   margin: 0 auto;
