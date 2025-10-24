@@ -483,4 +483,53 @@ button:not(:disabled) {
 
   .accordion-button { padding: 0.75rem 1rem; }
   .accordion-body   { padding: 1rem; }
+
+  .last-div {
+      margin-bottom: 4rem !important;
+      margin: 16px;
+    }
+}
+
+/* ============================
+   CSS - BARRA FLUTUANTE (STICKY) MOBILE
+   (Cole este código no final do seu style.css)
+   ============================ */
+
+.sticky-footer-mobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  /* Cor alinhada com sua IDV (header/footer) */
+  background-color: #1a1a1a; 
+  
+  padding: 0.75rem 0;
+  z-index: 1000; /* Garante que fique acima de todo o conteúdo */
+  
+  /* Sombra sutil para destacar a barra do conteúdo da página */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.25);
+  
+  /* Borda sutil alinhada com a IDV */
+  border-top: 1px solid #333; 
+}
+
+/* Ajustes de layout para os botões dentro da barra sticky,
+   removendo margens e ajustando fontes para caber no mobile.
+*/
+.sticky-footer-mobile .cta,
+.sticky-footer-mobile .btn-secondary {
+  margin: 0; /* Remove as margens originais .mt-3, .mb-2 */
+  padding: 0.6rem 0.5rem; /* Padding interno menor para o botão */
+  font-size: 0.8rem; /* Fonte ligeiramente menor para caber */
+}
+
+/* Garante que os botões tenham a mesma altura */
+.sticky-footer-mobile .row > div {
+  display: flex;
+}
+
+.sticky-footer-mobile .cta,
+.sticky-footer-mobile .btn-secondary {
+  flex-grow: 1; /* Faz os botões preencherem a coluna */
 }
