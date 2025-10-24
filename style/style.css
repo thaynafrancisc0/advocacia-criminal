@@ -484,10 +484,10 @@ button:not(:disabled) {
   .accordion-button { padding: 0.75rem 1rem; }
   .accordion-body   { padding: 1rem; }
 
-  .last-div {
-      margin-bottom: 2rem !important;
-      margin: 16px;
-    }
+    body {
+    padding-bottom: 64px;
+  }
+
 }
 
 
@@ -541,9 +541,3 @@ button:not(:disabled) {
   flex-grow: 1;
 }
 
-/* FIX DA SOBREPOSIÇÃO (MANTENHA ESTE CÓDIGO) */
-@media (max-width: 767.98px) {
-  body {
-    padding-bottom: 80px;
-  }
-}
