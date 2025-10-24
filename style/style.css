@@ -485,7 +485,7 @@ button:not(:disabled) {
   .accordion-body   { padding: 1rem; }
 
   .last-div {
-      margin-bottom: 4rem !important;
+      margin-bottom: 2rem !important;
       margin: 16px;
     }
 }
