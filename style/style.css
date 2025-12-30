@@ -28,7 +28,7 @@ a {
 }
 
 h1, h2, h3, h5 {
-  font-family: 'Inter', sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
  }
 
 .gold-label {
@@ -40,8 +40,8 @@ h1, h2, h3, h5 {
 }
 
 p, .navbar,.card-text, .btn, .cta, a, h6 {
-  font-family: 'Inter', sans-serif!important;
-  line-height: 1.8;
+  font-family: "Poppins", sans-serif !important;
+  line-height: 1.6!important;
 }
 
 h6 {
@@ -62,8 +62,7 @@ h6 {
 p {
   color: #eaeaea;
   margin-bottom: 0;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 16px;
 }
 
 .logo p {
@@ -92,7 +91,7 @@ p {
 
 .logo-text p {
   color: #f0f0f0;
-  line-height: 1.8;
+  line-height: 1.6;
   margin: 0;
 }
 
@@ -118,73 +117,84 @@ img.logo {
 }
 
 .hero h1 {
-  font-size: 60px;
-  font-weight: 400;
-  line-height: 1.3;
-  color: #fafafa;
+  font-size: 64px;
+  font-weight: 900 !important;
+  line-height: 120%;
+  letter-spacing: -2px;
+  color: #ffffff;
   text-transform: uppercase;
-  margin: 12px 0 0 0;
+  margin: 10px 0 20px 0;
+  display: block;
 }
 
 .hero h4 {
   font-size: 24px;
   font-weight: 400;
-  line-height: 1.3;
+  line-height: 1.6;
   margin: 8px 0;
-  color: #ddd;
+  color: #eaeaea;
 }
 
 .hero h6 {
   letter-spacing: 2px;
 }
 
-.hero p {
-  font-weight: 600;
-}
-
 /* =========================================================
    BOTÕES E CTAs
 ========================================================= */
-a.cta,
+a.cta, 
 .btn-secondary {
-  border: 1px solid #C5A059;
-  border-radius: 32px;
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  font-weight: 500;
+  /* Design Base */
+  border-radius: 4px; /* Bordas retas são mais arquitetônicas e sérias que 32px */
+  padding: 1.1rem 2.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  text-decoration: none !important;
 }
 
+/* BOTÃO PRINCIPAL: Dourado Sólido (Contraste de Ouro) */
 a.cta {
-  background-color: rgba(227, 184, 100, 0.12);
-  margin-right: 8px !important;
+  background-color: #C5A059 !important; /* Dourado Champagne */
+  color: #000 !important; /* Texto preto para leitura imediata */
+  border: 1px solid #C5A059;
+  margin-right: 12px !important;
 }
 
 a.cta:hover {
-  background-color: #725824;
-  color: #000;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(227, 184, 100, 0.35);
+  background-color: #ffffff !important; /* Vira branco no hover: sinal de luxo */
+  border-color: #ffffff;
+  color: #000 !important;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
-a.cta:active {
-  transform: translateY(0);
-  box-shadow: 0 3px 10px rgba(227, 184, 100, 0.2);
-}
-
+/* BOTÃO SECUNDÁRIO: Ghost Button (Elegância Minimalista) */
 .btn-secondary {
-  background-color: #262626 !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important; /* Borda branca bem sutil */
 }
 
 .btn-secondary:hover {
-  background-color: #171717 !important;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(49, 49, 49, 0.35);
+  background-color: transparent !important;
+  border-color: #C5A059 !important; /* Ganha borda dourada no hover */
+  color: #C5A059 !important;
+  transform: translateY(-4px);
+}
+
+/* Ajuste Mobile para os botões não ficarem grudados */
+@media (max-width: 768px) {
+  a.cta, .btn-secondary {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 12px;
+  }
 }
 
 /* =========================================================
@@ -429,18 +439,16 @@ button:not(:disabled) {
     text-align: left;
   }
 
-  a.cta,
-  .btn-secondary {
-    width: 80%;
-  }
-
   img.logo {
     height: 80px;
   }
 
   .hero {
-    padding: 2rem 1rem;
     text-align: center;
+  }
+
+  section#whatsapp {
+    padding: 0 !important;
   }
 
   .hero h1 {
@@ -448,7 +456,7 @@ button:not(:disabled) {
   }
 
   .hero h4 {
-    font-size: 1.125rem;
+    font-size: 20px;
     color: #eee;
   }
 
@@ -533,7 +541,8 @@ button:not(:disabled) {
    PREMIUM GLASS CARD
 ========================================================= */
 .premium-glass-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: transparent;
+  border: 1px solid #333;
   backdrop-filter: blur(10px);
   padding: 40px 30px;
   height: 100%;
@@ -545,12 +554,12 @@ button:not(:disabled) {
   border-radius: 4px;
 }
 
-.premium-glass-card:hover {
+/* .premium-glass-card:hover {
   background: rgba(255, 255, 255, 0.06);
   border-color: rgba(197, 160, 89, 0.5);
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-}
+} */
 
 .card-icon {
   font-size: 2.2rem;
@@ -560,10 +569,10 @@ button:not(:disabled) {
   transition: 0.3s;
 }
 
-.premium-glass-card:hover .card-icon {
+/* .premium-glass-card:hover .card-icon {
   opacity: 1;
   transform: scale(1.1);
-}
+} */
 
 .premium-glass-card h6 {
   font-size: 16px !important;
@@ -575,5 +584,5 @@ button:not(:disabled) {
 .premium-glass-card p {
   font-size: 16px !important;
   line-height: 1.6 !important;
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: #eaeaea;
 }
