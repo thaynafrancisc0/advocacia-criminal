@@ -434,62 +434,20 @@
 
     <div class="container-fluid p-3 last-div">
       <div class="container">
-        <p class="small text-muted text-center mb-0">&copy; 2025 Thayna Francisco OAB/SP 536.470</p>
+        <p class="small text-muted text-center mb-0">&copy; 2026 Thayna Francisco OAB/SP 536.470</p>
       </div>
     </div>
   </footer>
 
-  <div id="stickyBar" class="sticky-footer-mobile d-block d-md-none">
-    <div class="container">
-      <div class="row g-2 align-items-center">
-        
-        <div class="col-6">
-          <a href="http://wa.me/+5511920016400?text=Ol%C3%A1%C2%A0Dra%2E%20Thayna%2E%20Vi%20seu%20site%20e%20preciso%20de%20ajuda%20urgente%2E" class="cta w-100 text-center d-block text-white text-uppercase">
-            FALAR COM A ADVOGADA
-          </a>
-        </div>
-        
-        <div class="col-6">
-          <a href="tel:+5511920016400" class="btn-secondary w-100 text-center d-block text-white text-uppercase">
-            LIGAÇÃO URGENTE
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </div>
+  <a href="https://wa.me/+5511920016400?text=Olá, Dra. Thayna. Vi seu site e preciso de ajuda urgente." 
+    class="whatsapp-float" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    aria-label="Falar com advogada pelo WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-    // Aguarda o documento carregar
-    document.addEventListener("DOMContentLoaded", function() {
-      
-      // 1. Define os elementos
-      var stickyBar = document.getElementById("stickyBar");
-      var scrollThreshold = 320; // Gatilho em 320px. Ajuste se necessário.
-
-      // 2. Cria a função de scroll
-      function checkScroll() {
-        // Se a barra não existir (ex: desktop), não faz nada
-        if (!stickyBar) {
-          return;
-        }
-
-        // 3. Verifica a posição do scroll
-        if (window.scrollY > scrollThreshold) {
-          // Se rolou MAIS que o gatilho, mostra a barra
-          stickyBar.classList.add("sticky-visible");
-        } else {
-          // Se rolou MENOS que o gatilho, esconde a barra
-          stickyBar.classList.remove("sticky-visible");
-        }
-      }
-
-      // 4. Adiciona o "ouvinte" de evento de scroll
-      window.addEventListener("scroll", checkScroll);
-    });
-  </script>
 
 </body>
 </html>
