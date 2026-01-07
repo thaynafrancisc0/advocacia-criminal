@@ -454,9 +454,9 @@ button:not(:disabled) {
   }
 
   .hero h4 {
-    font-size: 20px;
+    font-size: 16px;
     color: #eee;
-    line-height: 1.5;
+    line-height: 160%;
   }
 
   hr.border {
