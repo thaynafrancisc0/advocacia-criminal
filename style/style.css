@@ -447,7 +447,10 @@ button:not(:disabled) {
   }
 
   .hero h1 {
-    font-size: 38px;
+    font-size: 36px;
+    line-height: 100%;
+    font-weight: 900px;
+    margin-bottom: 24px;
   }
 
   .hero h4 {
