@@ -584,3 +584,42 @@ button:not(:disabled) {
   line-height: 1.6 !important;
   color: #eaeaea;
 }
+
+
+
+/* Container para centralizar ou alinhar conforme seu layout */
+.header-badge-container {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-start; /* No desktop mantém à esquerda */
+}
+
+.premium-badge {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 11px;
+  font-weight: 600;
+  color: #C5A059; /* Dourado Champagne */
+  text-transform: uppercase;
+  letter-spacing: 4px; /* Espaçamento luxuoso */
+  
+  /* A Moldura do Badge */
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  padding: 6px 16px;
+  border-radius: 2px; /* Canto quase reto para seriedade */
+  background: rgba(197, 160, 89, 0.05); /* Brilho dourado de fundo bem sutil */
+}
+
+/* Ajuste específico para o Mobile */
+@media (max-width: 768px) {
+  .header-badge-container {
+    justify-content: center; /* Centraliza no mobile para harmonizar com a foto */
+    margin-top: 10px;
+  }
+  
+  .premium-badge {
+    font-size: 10px; /* Um pouco menor no celular para não quebrar linha */
+    letter-spacing: 3px;
+    padding: 5px 12px;
+  }
+}
+
