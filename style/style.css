@@ -616,7 +616,7 @@ button:not(:disabled) {
   
   .premium-badge {
     font-size: 10px; /* Um pouco menor no celular para não quebrar linha */
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     padding: 5px 12px;
   }
 }
