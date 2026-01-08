@@ -491,9 +491,6 @@ button:not(:disabled) {
     padding: 1rem;
   }
 
-  body {
-    padding-bottom: 64px;
-  }
 }
 
 /* WHATSAPP FLUTUANTE PREMIUM */
