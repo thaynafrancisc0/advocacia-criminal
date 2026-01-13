@@ -438,6 +438,16 @@ button:not(:disabled) {
     height: 64px;
   }
 
+  .nav-mobile {
+    font-size: 14px;
+    margin: 1rem 0;
+    color: #858585
+  }
+
+  header {
+    margin: 2rem 0;
+  }
+
   .hero {
     text-align: center;
   }
@@ -448,7 +458,7 @@ button:not(:disabled) {
 
   .hero h1 {
     font-size: 36px;
-    line-height: 100%;
+    line-height: 110%;
     font-weight: 900px;
     margin-bottom: 24px;
   }
