@@ -457,7 +457,7 @@ button:not(:disabled) {
 
   .hero h1 {
     font-size: 36px;
-    line-height: 110%;
+    line-height: 120%;
     font-weight: 900px;
     margin-bottom: 24px;
   }
