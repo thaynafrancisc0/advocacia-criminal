@@ -449,6 +449,10 @@ i.fa-brands.fa-whatsapp {
         padding: 1rem 0;
     }
 
+    .nav div {
+    line-height: 0.5;
+    }
+
     .hero {
         text-align: center;
     }
@@ -458,9 +462,8 @@ i.fa-brands.fa-whatsapp {
     }
 
     .hero h1 {
-        font-size: 36px;
+        font-size: 40px;
         font-weight: 900px;
-        margin-bottom: 24px;
     }
 
     .hero h4 {
