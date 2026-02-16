@@ -188,24 +188,6 @@ header.navbar {
     height: auto;
 }
 
-.img-thayna {
-    width: 400px;
-    -webkit-mask-image: linear-gradient(to top,
-            transparent 0%,
-            black 20%,
-            black 80%,
-            transparent 100%),
-        linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 100%);
-    -webkit-mask-composite: intersect;
-    mask-image: linear-gradient(to top,
-            transparent 0%,
-            black 20%,
-            black 80%,
-            transparent 100%),
-        linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 100%);
-    mask-composite: intersect;
-}
-
 /* --- CONFIGURAÇÃO DOS CARDS --- */
 .card-atuacao {
     background: rgba(255, 255, 255, 0.02); /* Fundo quase invisível para integrar com o gradiente do body */
@@ -456,18 +438,15 @@ i.fa-brands.fa-whatsapp {
         margin-right: 0;
         margin-bottom: 8px;
     }
-
     section#whatsapp {
         padding: 3rem 0;
     }
-
     .hero,
     .last-div,
     .text-footer,
     a.btn.btn-link {
         text-align: center;
     }
-
     .accordion-button {
         padding: 0.75rem 1rem;
     }
@@ -475,7 +454,6 @@ i.fa-brands.fa-whatsapp {
     .accordion-body {
         padding: 1rem;
     }
-
     .whatsapp-float {
         width: 55px;
         height: 55px;
@@ -497,4 +475,3 @@ i.fa-brands.fa-whatsapp {
         margin: 0 auto; /* Centraliza o parágrafo no mobile */
     }
 }
-
